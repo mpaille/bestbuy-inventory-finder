@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>dotnet-Mpaille.BestBuyInventoryFinder-F0AFBEB6-135A-497A-A39F-706250B3F59A</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mpaille.BestBuyInventoryFinder.Domain\Mpaille.BestBuyInventoryFinder.Domain.csproj" />
+    <ProjectReference Include="..\Mpaille.BestBuyInventoryFinder.Infrastructure\Mpaille.BestBuyInventoryFinder.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
